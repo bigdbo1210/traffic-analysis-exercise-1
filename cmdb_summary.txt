@@ -1,0 +1,383 @@
+Ironclad CMDB API Audit Report
+================================
+
+Total Assets: 300
+
+Assets by Environment:
+- staging: 108
+- prod: 101
+- dev: 91
+
+Assets by Risk Level:
+- HIGH: 54
+- MEDIUM: 133
+- LOW: 113
+
+High Priority Review:
+- eng-24 | type=firewall | os=Windows | env=prod | owner=Executive Administration | risk=MEDIUM
+- web-16 | type=server | os=macOS | env=prod | owner=IT | risk=MEDIUM
+- finance-24 | type=laptop | os=Linux | env=prod | owner=HR | risk=HIGH
+- web-26 | type=laptop | os=Linux | env=prod | owner=Finance | risk=MEDIUM
+- finance-35 | type=laptop | os=macOS | env=prod | owner=IT | risk=HIGH
+- eng-22 | type=server | os=Windows | env=prod | owner=HR | risk=HIGH
+- finance-40 | type=firewall | os=Linux | env=prod | owner=Security | risk=MEDIUM
+- compute-13 | type=laptop | os=macOS | env=prod | owner=IT | risk=MEDIUM
+- finance-22 | type=container | os=macOS | env=prod | owner=HR | risk=MEDIUM
+- compute-34 | type=firewall | os=macOS | env=prod | owner=Engineering | risk=MEDIUM
+- hr-25 | type=server | os=Linux | env=prod | owner=Security | risk=MEDIUM
+- eng-14 | type=firewall | os=macOS | env=prod | owner=Executive Administration | risk=MEDIUM
+- web-47 | type=laptop | os=macOS | env=prod | owner=IT | risk=MEDIUM
+- web-36 | type=laptop | os=Linux | env=prod | owner=Finance | risk=HIGH
+- eng-48 | type=server | os=macOS | env=prod | owner=Executive Administration | risk=HIGH
+- web-16 | type=server | os=Linux | env=prod | owner=Finance | risk=MEDIUM
+- compute-32 | type=firewall | os=Windows | env=prod | owner=Engineering | risk=HIGH
+- finance-47 | type=laptop | os=Linux | env=prod | owner=IT | risk=MEDIUM
+- web-28 | type=container | os=Linux | env=prod | owner=Executive Administration | risk=MEDIUM
+- hr-26 | type=container | os=macOS | env=prod | owner=Finance | risk=MEDIUM
+- eng-35 | type=container | os=Windows | env=prod | owner=IT | risk=MEDIUM
+- hr-30 | type=laptop | os=Linux | env=prod | owner=Finance | risk=MEDIUM
+- finance-29 | type=firewall | os=Linux | env=prod | owner=Finance | risk=MEDIUM
+- hr-19 | type=container | os=Windows | env=prod | owner=Security | risk=MEDIUM
+- eng-30 | type=container | os=macOS | env=prod | owner=Finance | risk=MEDIUM
+- hr-44 | type=server | os=Linux | env=prod | owner=Engineering | risk=MEDIUM
+- db-46 | type=server | os=Windows | env=prod | owner=Security | risk=MEDIUM
+- db-50 | type=container | os=macOS | env=prod | owner=Finance | risk=MEDIUM
+- db-41 | type=container | os=macOS | env=prod | owner=Executive Administration | risk=HIGH
+- hr-26 | type=server | os=Windows | env=prod | owner=Security | risk=HIGH
+- hr-4 | type=container | os=macOS | env=prod | owner=Engineering | risk=MEDIUM
+- db-38 | type=server | os=Windows | env=prod | owner=Security | risk=MEDIUM
+- compute-3 | type=laptop | os=Linux | env=prod | owner=Executive Administration | risk=MEDIUM
+- web-9 | type=firewall | os=Windows | env=prod | owner=Finance | risk=HIGH
+- hr-42 | type=firewall | os=Linux | env=prod | owner=HR | risk=MEDIUM
+- db-4 | type=server | os=macOS | env=prod | owner=Finance | risk=HIGH
+- finance-16 | type=container | os=Linux | env=prod | owner=Finance | risk=MEDIUM
+- hr-37 | type=laptop | os=Linux | env=prod | owner=Finance | risk=HIGH
+- hr-40 | type=laptop | os=Linux | env=prod | owner=Finance | risk=MEDIUM
+- db-30 | type=laptop | os=macOS | env=prod | owner=Finance | risk=MEDIUM
+- hr-10 | type=laptop | os=Linux | env=prod | owner=Security | risk=MEDIUM
+- web-9 | type=firewall | os=Linux | env=prod | owner=Executive Administration | risk=MEDIUM
+- compute-3 | type=container | os=Linux | env=prod | owner=Finance | risk=HIGH
+- compute-4 | type=firewall | os=macOS | env=prod | owner=Finance | risk=MEDIUM
+- compute-5 | type=firewall | os=Windows | env=prod | owner=Finance | risk=MEDIUM
+- db-10 | type=container | os=Linux | env=prod | owner=HR | risk=MEDIUM
+- eng-11 | type=firewall | os=macOS | env=prod | owner=IT | risk=HIGH
+- compute-14 | type=firewall | os=Windows | env=prod | owner=Engineering | risk=HIGH
+- hr-33 | type=server | os=Linux | env=prod | owner=Engineering | risk=MEDIUM
+- db-47 | type=server | os=macOS | env=prod | owner=Security | risk=MEDIUM
+- compute-21 | type=server | os=Linux | env=prod | owner=HR | risk=MEDIUM
+- eng-29 | type=laptop | os=Windows | env=prod | owner=Finance | risk=MEDIUM
+- finance-13 | type=container | os=Windows | env=prod | owner=Finance | risk=MEDIUM
+- web-42 | type=firewall | os=macOS | env=prod | owner=Security | risk=MEDIUM
+- web-12 | type=laptop | os=Linux | env=prod | owner=IT | risk=MEDIUM
+- eng-24 | type=firewall | os=Windows | env=prod | owner=HR | risk=MEDIUM
+- hr-23 | type=firewall | os=Windows | env=prod | owner=Engineering | risk=MEDIUM
+- web-7 | type=container | os=Windows | env=prod | owner=Executive Administration | risk=MEDIUM
+- compute-15 | type=firewall | os=Linux | env=prod | owner=Security | risk=MEDIUM
+- finance-4 | type=laptop | os=Windows | env=prod | owner=HR | risk=HIGH
+
+Top 3 Teams with HIGH Risk Assets:
+- Executive Administration: 12
+- Engineering: 11
+- Finance: 9
+
+Assets Not Seen in 30+ Days:
+- db-3 | 482 days since seen
+- db-13 | 134 days since seen
+- hr-45 | 236 days since seen
+- hr-16 | 216 days since seen
+- compute-33 | 357 days since seen
+- web-15 | 431 days since seen
+- web-15 | 237 days since seen
+- compute-9 | 168 days since seen
+- compute-31 | 335 days since seen
+- eng-24 | 222 days since seen
+- eng-34 | 388 days since seen
+- eng-8 | 304 days since seen
+- web-16 | 197 days since seen
+- web-10 | 400 days since seen
+- eng-50 | 135 days since seen
+- web-10 | 289 days since seen
+- finance-24 | 184 days since seen
+- web-15 | 492 days since seen
+- web-26 | 188 days since seen
+- web-33 | 484 days since seen
+- finance-24 | 408 days since seen
+- eng-16 | 140 days since seen
+- finance-35 | 461 days since seen
+- db-41 | 143 days since seen
+- compute-2 | 445 days since seen
+- web-31 | 268 days since seen
+- web-12 | 285 days since seen
+- finance-14 | 395 days since seen
+- eng-28 | 373 days since seen
+- db-31 | 202 days since seen
+- web-38 | 376 days since seen
+- web-19 | 301 days since seen
+- compute-30 | 355 days since seen
+- db-16 | 248 days since seen
+- hr-46 | 144 days since seen
+- web-48 | 418 days since seen
+- eng-22 | 135 days since seen
+- compute-50 | 352 days since seen
+- finance-40 | 338 days since seen
+- db-17 | 263 days since seen
+- eng-10 | 429 days since seen
+- eng-33 | 133 days since seen
+- web-36 | 168 days since seen
+- compute-13 | 163 days since seen
+- finance-4 | 219 days since seen
+- finance-29 | 411 days since seen
+- compute-43 | 490 days since seen
+- finance-22 | 403 days since seen
+- compute-28 | 442 days since seen
+- web-39 | 240 days since seen
+- finance-42 | 263 days since seen
+- finance-37 | 230 days since seen
+- finance-41 | 210 days since seen
+- compute-12 | 175 days since seen
+- eng-15 | 262 days since seen
+- compute-46 | 287 days since seen
+- eng-21 | 250 days since seen
+- finance-39 | 257 days since seen
+- hr-11 | 349 days since seen
+- finance-30 | 170 days since seen
+- eng-29 | 326 days since seen
+- compute-14 | 191 days since seen
+- compute-15 | 497 days since seen
+- finance-38 | 318 days since seen
+- eng-32 | 312 days since seen
+- hr-39 | 234 days since seen
+- compute-34 | 294 days since seen
+- hr-33 | 311 days since seen
+- web-47 | 422 days since seen
+- finance-18 | 317 days since seen
+- hr-25 | 159 days since seen
+- eng-14 | 161 days since seen
+- finance-46 | 305 days since seen
+- web-47 | 254 days since seen
+- db-12 | 274 days since seen
+- web-36 | 485 days since seen
+- hr-21 | 428 days since seen
+- web-35 | 266 days since seen
+- eng-48 | 300 days since seen
+- eng-25 | 431 days since seen
+- eng-17 | 276 days since seen
+- web-16 | 429 days since seen
+- compute-47 | 241 days since seen
+- hr-4 | 214 days since seen
+- compute-32 | 316 days since seen
+- eng-7 | 152 days since seen
+- finance-47 | 474 days since seen
+- hr-1 | 429 days since seen
+- web-28 | 359 days since seen
+- finance-14 | 354 days since seen
+- finance-25 | 358 days since seen
+- compute-36 | 423 days since seen
+- hr-11 | 390 days since seen
+- hr-46 | 300 days since seen
+- web-26 | 264 days since seen
+- hr-26 | 232 days since seen
+- db-13 | 182 days since seen
+- hr-18 | 183 days since seen
+- web-35 | 434 days since seen
+- eng-35 | 258 days since seen
+- web-2 | 411 days since seen
+- hr-12 | 394 days since seen
+- finance-48 | 257 days since seen
+- eng-15 | 388 days since seen
+- db-2 | 468 days since seen
+- eng-34 | 407 days since seen
+- db-34 | 437 days since seen
+- hr-30 | 444 days since seen
+- hr-34 | 321 days since seen
+- finance-3 | 372 days since seen
+- compute-24 | 320 days since seen
+- eng-28 | 476 days since seen
+- web-16 | 475 days since seen
+- web-28 | 455 days since seen
+- db-23 | 294 days since seen
+- hr-34 | 276 days since seen
+- finance-29 | 291 days since seen
+- hr-19 | 214 days since seen
+- eng-7 | 434 days since seen
+- eng-30 | 489 days since seen
+- compute-43 | 363 days since seen
+- hr-44 | 441 days since seen
+- web-1 | 221 days since seen
+- finance-37 | 155 days since seen
+- db-41 | 371 days since seen
+- eng-48 | 279 days since seen
+- db-46 | 382 days since seen
+- hr-14 | 366 days since seen
+- eng-50 | 166 days since seen
+- finance-1 | 176 days since seen
+- web-25 | 441 days since seen
+- web-23 | 208 days since seen
+- db-50 | 434 days since seen
+- db-41 | 232 days since seen
+- web-50 | 384 days since seen
+- web-20 | 254 days since seen
+- db-6 | 293 days since seen
+- compute-4 | 333 days since seen
+- hr-49 | 453 days since seen
+- hr-39 | 143 days since seen
+- compute-15 | 225 days since seen
+- compute-50 | 432 days since seen
+- hr-26 | 193 days since seen
+- hr-4 | 489 days since seen
+- web-49 | 266 days since seen
+- eng-46 | 266 days since seen
+- finance-14 | 177 days since seen
+- finance-46 | 327 days since seen
+- eng-13 | 244 days since seen
+- hr-16 | 398 days since seen
+- finance-33 | 147 days since seen
+- db-38 | 491 days since seen
+- web-5 | 206 days since seen
+- compute-3 | 226 days since seen
+- hr-39 | 190 days since seen
+- finance-41 | 378 days since seen
+- compute-2 | 408 days since seen
+- web-12 | 238 days since seen
+- eng-30 | 383 days since seen
+- eng-36 | 468 days since seen
+- web-9 | 417 days since seen
+- eng-1 | 191 days since seen
+- db-16 | 168 days since seen
+- finance-20 | 493 days since seen
+- finance-4 | 466 days since seen
+- compute-47 | 206 days since seen
+- eng-30 | 242 days since seen
+- hr-24 | 392 days since seen
+- eng-6 | 365 days since seen
+- hr-42 | 365 days since seen
+- hr-17 | 154 days since seen
+- eng-31 | 340 days since seen
+- compute-31 | 162 days since seen
+- compute-26 | 246 days since seen
+- compute-10 | 445 days since seen
+- hr-11 | 279 days since seen
+- db-12 | 305 days since seen
+- db-24 | 221 days since seen
+- web-50 | 389 days since seen
+- db-37 | 485 days since seen
+- db-4 | 148 days since seen
+- finance-40 | 186 days since seen
+- db-4 | 481 days since seen
+- db-10 | 172 days since seen
+- compute-48 | 435 days since seen
+- db-7 | 149 days since seen
+- hr-25 | 161 days since seen
+- eng-28 | 349 days since seen
+- finance-16 | 242 days since seen
+- hr-37 | 218 days since seen
+- finance-30 | 446 days since seen
+- db-11 | 335 days since seen
+- hr-40 | 341 days since seen
+- finance-5 | 342 days since seen
+- compute-22 | 236 days since seen
+- finance-49 | 336 days since seen
+- finance-30 | 174 days since seen
+- db-34 | 410 days since seen
+- hr-33 | 370 days since seen
+- web-28 | 258 days since seen
+- eng-31 | 430 days since seen
+- hr-44 | 360 days since seen
+- web-22 | 489 days since seen
+- db-30 | 185 days since seen
+- compute-28 | 489 days since seen
+- finance-28 | 174 days since seen
+- compute-44 | 205 days since seen
+- hr-10 | 192 days since seen
+- eng-5 | 315 days since seen
+- finance-21 | 231 days since seen
+- finance-8 | 137 days since seen
+- finance-1 | 345 days since seen
+- web-9 | 415 days since seen
+- web-20 | 416 days since seen
+- finance-29 | 294 days since seen
+- compute-3 | 425 days since seen
+- finance-18 | 375 days since seen
+- db-23 | 394 days since seen
+- web-23 | 252 days since seen
+- compute-45 | 308 days since seen
+- finance-20 | 358 days since seen
+- compute-18 | 366 days since seen
+- web-4 | 281 days since seen
+- compute-4 | 364 days since seen
+- compute-5 | 160 days since seen
+- hr-22 | 190 days since seen
+- db-10 | 382 days since seen
+- db-39 | 193 days since seen
+- eng-11 | 459 days since seen
+- compute-36 | 483 days since seen
+- db-43 | 275 days since seen
+- eng-6 | 287 days since seen
+- finance-14 | 359 days since seen
+- finance-6 | 332 days since seen
+- eng-22 | 423 days since seen
+- eng-8 | 234 days since seen
+- compute-14 | 403 days since seen
+- hr-33 | 468 days since seen
+- db-15 | 197 days since seen
+- web-31 | 361 days since seen
+- db-35 | 249 days since seen
+- finance-10 | 463 days since seen
+- finance-20 | 250 days since seen
+- compute-49 | 360 days since seen
+- finance-45 | 404 days since seen
+- eng-8 | 292 days since seen
+- eng-49 | 423 days since seen
+- db-47 | 248 days since seen
+- finance-48 | 458 days since seen
+- web-42 | 408 days since seen
+- eng-19 | 164 days since seen
+- hr-27 | 380 days since seen
+- db-29 | 419 days since seen
+- hr-28 | 452 days since seen
+- compute-24 | 376 days since seen
+- db-29 | 222 days since seen
+- web-33 | 400 days since seen
+- finance-37 | 495 days since seen
+- db-4 | 152 days since seen
+- eng-42 | 365 days since seen
+- compute-29 | 443 days since seen
+- web-32 | 211 days since seen
+- web-46 | 353 days since seen
+- hr-26 | 263 days since seen
+- web-16 | 409 days since seen
+- hr-27 | 444 days since seen
+- compute-21 | 392 days since seen
+- eng-21 | 463 days since seen
+- web-48 | 370 days since seen
+- hr-49 | 252 days since seen
+- eng-29 | 429 days since seen
+- db-6 | 353 days since seen
+- finance-13 | 173 days since seen
+- db-30 | 296 days since seen
+- finance-39 | 272 days since seen
+- hr-38 | 149 days since seen
+- web-42 | 203 days since seen
+- web-29 | 141 days since seen
+- compute-24 | 198 days since seen
+- web-12 | 149 days since seen
+- db-42 | 224 days since seen
+- eng-24 | 435 days since seen
+- hr-23 | 187 days since seen
+- web-7 | 337 days since seen
+- db-19 | 286 days since seen
+- hr-5 | 177 days since seen
+- db-46 | 162 days since seen
+- finance-15 | 289 days since seen
+- web-48 | 256 days since seen
+- hr-48 | 155 days since seen
+- compute-16 | 375 days since seen
+- compute-15 | 278 days since seen
+- hr-4 | 321 days since seen
+- db-23 | 282 days since seen
+- web-9 | 133 days since seen
+- compute-7 | 163 days since seen
+- finance-15 | 146 days since seen
+- finance-40 | 301 days since seen
+- eng-6 | 175 days since seen
+- finance-4 | 175 days since seen
